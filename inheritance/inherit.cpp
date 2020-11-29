@@ -47,7 +47,7 @@ class Student: public Person {
 			if(sum >= 90 && sum <= 100) {
 				return 'O';
 			}
-			else if(sum >= 90 && sum < 90)
+			else if(sum >= 80 && sum < 90)
 				return 'E';
 			else if(sum >= 70 && sum < 80)
 				return 'A';
@@ -55,7 +55,7 @@ class Student: public Person {
 				return 'P';
 			else if(sum >= 40 && sum < 55)
 				return 'D';
-			else if(sum < 40)
+			else
 				return 'T';
 		
 		}
